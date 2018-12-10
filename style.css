@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 9;
+}
+body {
+    color: #212121;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 21px;
+    margin: 0;
+    line-height: 1.6;
+    background-image: url('stripes-light.png');
+}
+nav {
+    background: #404040;
+    color: #000;
+    font-size: .9em;
+    font-weight: 700;
+    list-style: none;
+    margin: 0;
+    padding: 20px;
+    text-align: right;
+}
+nav li {
+    display: inline;
+    padding: 20px 20px;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+nav a:hover {
+    color: #CDDC39;
+}
+h1, h2 {
+    text-transform: lowercase;
+    line-height: 50px;
+}
+#showcase {
+    /* background-color: #eee; */
+    /* background-image: url('stripes-light.png'); */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    padding: 0 20px;
+}
+#showcase h1 {
+    font-size: 2.2em;
+}
+#showcase h2 {
+    font-size: 1.3em;
+}  
+#showcase p {
+    font-size: .5em;
+} 
+#showcase-text {
+    background-color: #fff;
+    border: 1px #404040 solid;
+    padding: 40px 40px;
+
+}
+#showcase .button {
+    background-color: #00BCD4;
+    border: 1px #ffffff solid;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+#showcase .button:hover {
+    background: #CDDC39;
+    color: #fff; 
+}
+#middle-break {
+    text-align: center;
+    background-color: #fff;
+    border-top: 5px #F5F5F5 dashed;
+    border-bottom: 5px #F5F5F5 dashed;
+    padding: 10px;
+}
+#about {
+    /* background: #fafafa; */
+    color: #212121;
+    padding: 50px;
+}
+#about .boxes {
+    background-color: #FAFAFA;
+    border: 1px #404040 solid;
+    padding: 25px;
+}
+#about h2 {
+    background-color: #404040;
+    color: #fff;
+    display: inline-flex;
+    padding: 0px 25px;
+}
+/* #skills {
+    padding: 20px;
+    background: #7CC5DF;
+    color: #000;
+    text-align: center;
+    border-top: 1px #fff solid;
+}
+*/
+#examples {
+    /* background: #fafafa; */
+    color: #BDBDBD;
+    padding: 50px;
+}
+#examples a {
+    font-size: 1em;
+    font-weight: 700;
+    color: #1FBCD2;
+    text-decoration: none;
+}
+#examples a:hover {
+    color: #202020;
+}
+#examples h2 {
+    background-color: #404040;
+    color: #fff;
+    display: inline-flex;
+    padding: 0px 25px;
+}
+#examples .boxes {
+    background-color: #FAFAFA;
+    border: 1px #404040 solid;
+    padding: 20px 25px;
+}
+#contact {
+    padding: 100px;
+    color: #000;
+    border-top: 1px #fff solid;
+}
+#contact h2 {
+    background-color: #404040;
+    color: #fff;
+    display: inline-flex;
+    padding: 0px 25px;
+}
+#footer {
+    background: #404040;
+    padding: 100px;
+    text-align: center;
+    color: #fff;
+    border-top: 1px #fff solid;
+}
+#footer p {
+    font-size: 1rem;
+}
